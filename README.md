@@ -1,6 +1,6 @@
 # PWA_SimpleAutoInstall.js
 
-A lightweight, dependency-free JavaScript tool for adding an auto-install banner to your Progressive Web App (PWA). This script makes it incredibly easy to prompt users to install your app, whether they’re on Chrome/Android (via the native install prompt) or iOS (with manual installation instructions).
+A lightweight, dependency-free JavaScript tool for adding an auto-install banner to your Progressive Web App (PWA). This script makes it very easy to prompt users to install your app, whether they’re on Chrome/Android (via the native install prompt) or iOS/Safari (with manual installation instructions).
 
 > **Key Features:**
 >
@@ -8,6 +8,13 @@ A lightweight, dependency-free JavaScript tool for adding an auto-install banner
 > - **Easy to Deploy:** Works seamlessly with any static site or web server. No additional dependencies or frameworks required.
 > - **Easy to Modify:** With its self-contained design and inline CSS, you can quickly customize the banner’s appearance and text to suit your branding.
 > - **Cross-Platform Support:** Detects and handles both Android/Chrome (using the `beforeinstallprompt` event) and iOS devices (by showing manual installation instructions).
+
+## Quick deployment
+
+### Simply add this to your apps front page (check the Prerequisites below to ensure your PWA is setup correctly):
+   ```html
+<script src="https://cdn.jsdelivr.net/gh/GWickenden/PWA_SimpleAutoInstall@refs/heads/main/PWA_SimpleAutoInstall.js"></script>
+   ```
 
 ---
 
